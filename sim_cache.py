@@ -333,7 +333,6 @@ for i in range(len(lines)):
                     
 
                 L1_dirty_dict[L1_set_value][L1_tag_value]='NA'
-                #print(L1_dirty_dict[L1_set_value])
             else:
                 if (REPLACEMENT_POLICY==0):
                     LRU_L1[L1_set_value][L1_tag_value]=max(LRU_L1[L1_set_value].values())+1
