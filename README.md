@@ -5,14 +5,14 @@ Author: Sailasya Gangavarapu
 Designed and developed a flexible cache and memory hierarchy simulator in Python
 
 CACHE is configurable in terms of supporting any cache size, associativity, and block size, specified at the beginning of simulation: 
-  o SIZE: Total bytes of data storage.
-  o ASSOC: The associativity of the cache (ASSOC = 1 is a direct-mapped cache). 
-  o BLOCKSIZE: The number of bytes in a block.
+  1. SIZE: Total bytes of data storage.
+  2. ASSOC: The associativity of the cache (ASSOC = 1 is a direct-mapped cache). 
+  3. BLOCKSIZE: The number of bytes in a block.
   
 Successfully implemented three different Replacement Policies namely:
-  o LRU (Least Recently Used)
-  o FIFO (First In First Out)
-  o Optimal Policy
+  1. LRU (Least Recently Used)
+  2. FIFO (First In First Out)
+  3. Optimal Policy
   
 Inputs to the Simulator:
   1. BLOCKSIZE 
